@@ -1,0 +1,40 @@
+{
+  "name": "handlebarstest",
+  "description": "stuff",
+  "version": "0.1.0",
+  "homepage": "https://github.com/foxdm2/handlebarstest",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foxdm2/handlebarstest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foxdm2/handlebarstest/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/foxdm2/handlebarstest/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/handlebarstest",
+  "bin": {
+    "handlebarstest": "bin/handlebarstest.js"
+  },
+  "engines": {
+    "node": ">= 0.10.36",
+    "npm": ">=1.4.28"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~2.1.2",
+    "mocha": "~2.2.1"
+  },
+  "keywords": []
+}
